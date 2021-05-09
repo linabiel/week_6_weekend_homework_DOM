@@ -1,31 +1,44 @@
 body {
-    margin: 0;
-	font-family: 'Courier New', Courier, monospace;
-  }
-  
-  #form-wrapper {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    margin: 10px;
-  }
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+  background-color: #A3BDD4;
+}
 
-  form {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-  }
-  
-  .form-item {
-	display: inline-block;
-	padding: 10px;
-  }
+#form-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
 
-  label, input {
-	display: block;
-	margin-block: 10px;
-  }
+form {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
 
-  .artist-list {
-    background-color: #79A3B6;
-  }
+.form-item {
+  display: inline-block;
+  padding: 10px;
+}
+
+label,
+input {
+  display: block;
+}
+
+.artist-list {
+  background-color: #79a3b6;
+}
+
+#save-button, #delete-button {
+	width: 100px;
+	height: 25px;
+	margin: 10px;
+	background-color: #333333;
+	color: white;
+	border-color: white;
+
+
+
+}
