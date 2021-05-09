@@ -27,10 +27,6 @@ input {
   display: block;
 }
 
-.artist-list {
-  background-color: #79a3b6;
-}
-
 #save-button, #delete-button {
 	width: 100px;
 	height: 25px;
@@ -38,7 +34,22 @@ input {
 	background-color: #333333;
 	color: white;
 	border-color: white;
+}
 
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
 
+h3 {
+  margin: 10px;
+}
 
+li {
+  margin: 30px;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 8px #888888;
+  background-color: #61717F;
 }

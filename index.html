@@ -9,30 +9,37 @@
     <title>Favourite Artist</title>
 </head>
 <body>
-    <form id="new-item-form"></form>
-    <div id="form-wrapper"> 
-        <div class="form-item">
-            <label for="artist">Artist: </label>
-            <input type="text" id="artist">
-        </div>
+    <form id="new-item-form">
+        <div id="form-wrapper"> 
+            <div class="form-item">
+                <label for="artist">Artist: </label>
+                <input type="text" id="artist" placeholder="artist" name="artist">
+            </div>
 
-        <div class="form-item">
-            <label for="field">Field: </label>
-            <input type="text" id="field">
-        </div>
+            <div class="form-item">
+                <label for="field">Field: </label>
+                <input type="text" id="field" placeholder="field" name="field">
+            </div>
 
-        <div class="form-item">
-            <label for="art-piece">Art Piece: </label>
-            <input type="text" id="art-piece">
+            <div class="form-item">
+                <label for="art_piece">Art Piece: </label>
+                <input type="text" id="art_piece" placeholder="art_piece" name="art_piece">
+            </div>
         </div>
-    </div>
-    <div id="form-wrapper">
-        <div id="form-item">
-            <input type="submit" value="Save" id="save-button">
-            <button id="delete-button">Delete All</button>
+        <div id="form-wrapper">
+            <div id="form-item">
+                <input type="submit" value="Save" id="save-button">
+    </form>
+                <button id="delete-button">Delete All</button>
+            </div>
         </div>
-
-    </div>
+            <div id="form-wrapper">
+                <h3>Artists</h3>
+            </div>
+                <div id="form-wrapper">
+                    <ul id="artist-list"></ul>
+                </div>
+        </div>
     
 </body>
 </html>
