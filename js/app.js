@@ -1,6 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-    console.log('js loaded');
-
     const form = document.querySelector('#new-item-form');
     form.addEventListener('submit', handleFormSubmit);
   
@@ -19,7 +17,7 @@ const handleFormSubmit = function (event) {
 
 const createArtistListItem = function (form) {
     const artistListItem = document.createElement('li');
-    artistListItem.classList.add();
+    artistListItem.classList.add('#artist-list-item');
 
     const artist = document.createElement('h2');
     artist.textContent = form.artist.value;
@@ -36,7 +34,7 @@ const createArtistListItem = function (form) {
     return artistListItem;
 }
 
-const handleDeleteClick = function () {
+const handleDeleteClick = function (event) {
     const artistList = document.querySelector('#artist-list');
     artistList.innerHTML = '';
   }
